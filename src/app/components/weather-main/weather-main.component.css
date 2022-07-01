@@ -11,7 +11,8 @@
     color:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: linear-gradient(180deg, rgba(0,0,0,1)0% rgba(8,7,42,1));
-    
+    margin-left:210px;
+    border:8px solid black
 }
 
 .weatherWidgetRow{
@@ -49,11 +50,17 @@
 }
 .weather-form{
     position: absolute;
-    left:610px;
+    left:818px;
     top: 160px;
+    
 }
 .btn{
-    background-color: rgb(205, 33, 33);
+    background-color: rgb(35, 30, 30);
     border-radius: 5px;
     margin-left: 5px;
+    color:white;
+    height: 30px;
+}
+.input{
+   height: 24px;
 }
