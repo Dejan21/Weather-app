@@ -1,0 +1,7 @@
+<div class="container">
+    <select name="cities" id="cities"  (change)="selectOption($event.target)" >
+      <option *ngFor="let city of this.cities ">{{city.name}}</option>
+  
+      </select>
+   <a routerLink="weather">Search</a>
+</div>

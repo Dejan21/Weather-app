@@ -1,0 +1,27 @@
+<div class="weather-form">
+  <input #weatherInput type="text" placeholder="Search any city" />
+  <button class="btn "(click)="getWeather()"
+  >Search</button>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div id="WeatherMain">
+      <i class="fa-solid fa-cloud-sun"></i>
+        <div class="weatherWidgetRow1" id="name">
+          {{ WeatherData?.temp_min }}&deg;
+        </div>
+        <div class="weatherWidgetRow2" id="name">
+          {{ WeatherData?.temp_min }}&deg; / {{ WeatherData?.temp_max }}&deg;
+        </div>
+        <div class="weatherWidgetRow3" id="name">
+          Feels Like: {{ WeatherData?.temp_feels_like }}&deg;
+        </div>
+        <div class="weatherWidgetRow4" id="name">{{ WeatherData?.name }}</div>
+        <div class="weatherWidgetRow5" id="name">
+          Humidity: {{ WeatherData?.main.humidity }}%
+      </div>
+    </div>
+  </div>
+  <br />
+</div>
